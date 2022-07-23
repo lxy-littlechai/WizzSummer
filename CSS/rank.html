@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <div class="rank">
+    <div class="top">
+      <div class="title">排行榜</div>
+      <a class="more">更多  ></a>
+    </div>
+    <div class="content">
+      <div class="item odd">
+        <div class="first index">1</div>
+        <div class="text">她一直这么会说怪话吗？</div>
+      </div>
+      <div class="item even">
+        <div class="second index">2</div>
+        <div class="text">泡泡糖机里有那些口味？那些up主在美国品尝过的【猫和老鼠】美食</div>
+      </div>
+      <div class="item odd">
+        <div class="third index">3</div>
+        <div class="text">泡泡糖机里有那些口味？那些up主在美国品尝过的【猫和老鼠】美食</div>
+      </div>
+      <div class="item even">
+        <div class="index">4</div>
+        <div class="text">泡泡糖机里有那些口味？那些up主在美国品尝过的【猫和老鼠】美食</div>
+      </div>
+      <div class="item odd">
+        <div class="index">5</div>
+        <div class="text">泡泡糖机里有那些口味？那些up主在美国品尝过的【猫和老鼠】美食</div>
+      </div>
+      <div class="item even" >
+        <div class="index">6</div>
+        <div class="text">泡泡糖机里有那些口味？那些up主在美国品尝过的【猫和老鼠】美食</div>
+      </div>
+      <div class="item odd">
+        <div class="index">7</div>
+        <div class="text">泡泡糖机里有那些口味？那些up主在美国品尝过的【猫和老鼠】美食</div>
+      </div>
+      <div class="item even">
+        <div class="index">8</div>
+        <div class="text">泡泡糖机里有那些口味？那些up主在美国品尝过的【猫和老鼠】美食</div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+<style>
+.rank {
+  width: 300px;
+}
+.rank .top {
+  height: 60px;
+  line-height: 60px;
+}
+.rank .title {
+  display: inline-block;
+  height: 100%;
+  font-size: 30px;
+  margin-left: 20px;
+  margin-right: 92px;
+}
+.rank .more {
+  display: inline-block;
+  /* 对齐方式 */
+  vertical-align: top;
+  height: 45px;
+  line-height: 45px;
+  font-size: 22px;
+  border: #f4f5f6 solid 1px;
+  border-radius: 5px;
+  padding: 3px 15px;
+}
+.rank .content {
+  width: 100%;
+  border: 1px solid #f4f5f6;
+  border-radius: 10px;
+  overflow: hidden;
+  
+}
+.rank .item {
+  height: 60px;
+  width: 100%;
+  line-height: 60px;
+}
+.rank .item>div {
+  display: inline-block;
+}
+.rank .item .index{
+  width: 20px;
+  font-style: italic;
+  color: #c9ccd0;
+  margin-left: 20px;
+  margin-right: 10px;
+  /* overflow 对 inline-block的坑 */
+  vertical-align: top;
+}
+.rank .item .text {
+  width: 230px;
+  font-size: 20px;
+
+  /* 省略号 */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.rank .content .even {
+  background-color: #f6f7f8;
+}
+.rank .content .item .index {
+  font-size: 25px;
+}
+.rank .content .item .first {
+  color: #f54437;
+}
+.rank .content .item .second {
+  color: #f78749;
+}
+.rank .content .item .third {
+  color: #f79113;
+}
+
+</style>
+</html>
