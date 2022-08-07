@@ -1,0 +1,94 @@
+.channel {
+  display: flex;
+  align-items: center;
+  height: 120px;
+  padding: 20px 0;
+}
+
+
+/* left aside */
+.channel .left-aside {
+  display: flex;
+  justify-content: space-around;
+  width: 20%;
+  text-align: center;
+}
+
+.channel .left-aside img{
+  height: 70px;
+  width: 70px;
+  border-radius: 100%;
+}
+
+.channel .left-aside .title {
+  font-size: 21px;
+}
+
+/* middle aside */
+.channel .mid-aside {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 55%;
+  height: 90%;
+  padding: 0 20px;
+
+  
+}
+.channel .mid-aside .item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+  height: 40px;
+  width: 10%;
+  /* split in average */
+  margin-left: 0.5%;
+  letter-spacing: 5px;
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: rgba(245, 246, 247, 0.8);
+  transition: all .5s;
+}
+
+.channel .mid-aside .item:hover {
+  background-color: rgb(223, 225, 227);
+}
+
+/* right aside */
+.channel .right-aside {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 23%;
+  border-left: 1px solid rgb(227, 229, 231);
+}
+.channel .right-aside>div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 33%;
+  height: 50px;
+  
+}
+.channel .right-aside .hover {
+  display: none;
+}
+.channel .right-aside .item::before {
+  font-size: 25px;
+  margin-right: 2px;
+  /* important */
+  vertical-align: sub;
+
+}
+.channel .right-aside .item {
+  font-weight: 500;
+  transition: all .5s;
+  font-size: 19px;
+  letter-spacing: 5px;
+  color: #62666d;
+}
+.channel .right-aside .item:hover {
+  color: #3caeec;
+}

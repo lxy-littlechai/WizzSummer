@@ -1,0 +1,24 @@
+@font-face {
+  font-style: normal;
+  font-family: 'bilibili-font';
+  src: url("../font/HarmonyOS Sans/HarmonyOS_Sans_SC/HarmonyOS_Sans_SC_Regular.ttf")  format('truetype');
+  
+}
+
+*{margin:0;padding:0;font-family: 'bilibili-font';}
+
+li{list-style:none}
+
+img{vertical-align:top;border:none}
+
+input {
+  outline: none;
+}
+
+/* 版心 */
+.w {
+  width: 90%;
+  margin: 0 auto;
+  
+}
+

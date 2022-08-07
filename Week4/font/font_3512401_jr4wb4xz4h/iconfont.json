@@ -1,0 +1,72 @@
+{
+  "id": "3512401",
+  "name": "为之夏令营",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "6127291",
+      "name": "直播",
+      "font_class": "zhibo",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "584742",
+      "name": "flag",
+      "font_class": "flag1196069easyiconnet",
+      "unicode": "e630",
+      "unicode_decimal": 58928
+    },
+    {
+      "icon_id": "2076426",
+      "name": "搜索小",
+      "font_class": "sousuoxiao",
+      "unicode": "e8d6",
+      "unicode_decimal": 59606
+    },
+    {
+      "icon_id": "2377405",
+      "name": "我的大会员",
+      "font_class": "wodedahuiyuan",
+      "unicode": "e6c3",
+      "unicode_decimal": 59075
+    },
+    {
+      "icon_id": "2742668",
+      "name": "文档",
+      "font_class": "wendang",
+      "unicode": "e67a",
+      "unicode_decimal": 59002
+    },
+    {
+      "icon_id": "4867111",
+      "name": "邮箱",
+      "font_class": "youxiang",
+      "unicode": "e65e",
+      "unicode_decimal": 58974
+    },
+    {
+      "icon_id": "18486636",
+      "name": "精品课堂",
+      "font_class": "jingpinketang",
+      "unicode": "e7c0",
+      "unicode_decimal": 59328
+    },
+    {
+      "icon_id": "22843405",
+      "name": "互动交流",
+      "font_class": "hudongjiaoliu",
+      "unicode": "e663",
+      "unicode_decimal": 58979
+    },
+    {
+      "icon_id": "26670755",
+      "name": "音乐",
+      "font_class": "yinle",
+      "unicode": "e68d",
+      "unicode_decimal": 59021
+    }
+  ]
+}
